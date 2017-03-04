@@ -289,4 +289,52 @@ h3{
     padding: 10px 0 10px 20px;
 }
 
-div
+/* *********************************************
+ lecture_35_css */
+
+.portfolio {}
+.portfolio-slider {}
+.slide-wrapper {}
+.img-wrapper {}
+.portfolio h3 {
+    padding: 30px 0;
+}
+
+.slick-slide img {width: 100%;}
+.portfolio-slider .slick-arrow {
+    color: transparent;
+    font-size: 0;
+    position: absolute;
+    top: 0;
+    height: 20px;
+    width: 30px
+}
+
+.portfolio-slider .slick-prev {
+    background: url("../img/portfolio-prevbtn.png") 50% no-repeat;
+    right: 55px;
+}
+
+.portfolio-slider .slick-next {
+    background: url("../img/portfolio-nextbtn.png") 50% no-repeat;
+    right: 15px;
+}
+
+.portfolio-slider.slick-slider {position: static;}
+.portfolio-slider.slick-list {margin: 0 -15px;}
+
+.top-screen {
+    position: absolute;
+    background: transparent;
+}
+
+
+@media screen and (max-width:1170px) {
+    .header-slider {display: none;}
+    .top-screen {
+        background: url("../img/head-bg.img") 50%/cover no-repeat;
+    }
+}
+
+/* *********************************************
+ lecture_35_css */
