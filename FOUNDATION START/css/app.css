@@ -1,20 +1,44 @@
-html, body {
+html, body .header{
 	width: 100%;
 	overflow-x: hidden;
 }
 
-.col-wrapper > div {padding: 50%;}
-
-.col-wrapper:nth-child(1) > div {background: #f00;}
-.col-wrapper:nth-child(2) > div {background: #0f0;}
-.col-wrapper:nth-child(3) > div {background: #00f;}
-
-.nested-wrapper {
-	margin-top: 50px;
-	margin-bottom: 50px;
+.header {
+	background: #ccc;
+}
+h1 {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
-.col-pallete .column-block > div {
-	height: 100px;
-	background: #dadada:
+.logo-menu {
+	display: inline;
+	text-align: right;
+}
+.logo-menu ul {
+	/*display: inline-block;*/
+	list-style-type: none;
+	padding: 25px 0 25px 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+/*.logo-menu li {*/
+	/*float: right;*/
+	/*padding-right: 10px;*/
+/*}*/
+.logo-menu li:last-child {
+	padding: 0;
+}
+
+.space-article p {
+	max-width: 170px;
+	text-align: center;
+	margin: 0;
+}
+
+.big-art {
+	margin-bottom: 30px;
+}
+.art-title {
+	text-align: center;
 }
