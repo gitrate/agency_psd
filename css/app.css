@@ -4,9 +4,9 @@ html, body {
     width: 100%;
 }
 
-p{
+p {
     color: #0d113d;
-    font:300 15px/26px 'Montserrat', sans-serif;
+    font: 300 15px/26px 'Montserrat', sans-serif;
     margin: 0;
 }
 
@@ -15,7 +15,7 @@ p{
     border-radius: 4px;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
     color: #0d113d;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -23,37 +23,37 @@ h1, h2, h3, h4{
     line-height: 1;
 }
 
-h1{
+h1 {
     color: #fff;
-    font-size:70px;
+    font-size: 70px;
     font-weight: 800;
 }
 
-h2{
-    font-size:33px;
+h2 {
+    font-size: 33px;
 }
 
-h3{
-    font-size:26px;
+h3 {
+    font-size: 26px;
 }
 
-h4{
-    font-size:21px;
+h4 {
+    font-size: 21px;
 }
 
-ul{
+ul {
     font-size: 0;
-    margin:0;
+    margin: 0;
 }
 
-ul li{
+ul li {
     display: inline-block;
     padding-right: 19px;
 }
 
-a{
+a {
     text-decoration: none;
-    font:400 15px/1 'Montserrat', sans-serif;
+    font: 400 15px/1 'Montserrat', sans-serif;
     color: #fff;
     transition: color ease-in-out 0.2s;
 }
@@ -62,16 +62,16 @@ a:hover {
     color: #753d9d;
 }
 
-h3{
-    font:600 26px/1 'Montserrat', sans-serif;
+h3 {
+    font: 600 26px/1 'Montserrat', sans-serif;
 }
 
-.border{
+.border {
     position: relative;
     padding-left: 19px;
 }
 
-.border:before{
+.border:before {
     background-color: #753d9d;
     border-radius: 5px;
     content: '';
@@ -82,8 +82,8 @@ h3{
     width: 5px;
 }
 
-.button{
-    font:400 18px/1 'Montserrat', sans-serif;
+.button {
+    font: 400 18px/1 'Montserrat', sans-serif;
     border-radius: 5px;
     border: 2px solid transparent;
     height: 67px;
@@ -97,14 +97,15 @@ h3{
     text-align: center;
 }
 
-.white-btn{
+.white-btn {
     border-color: #ffffff;
 }
 
-.darck-btn{
+.dark-btn {
     border-color: #0d113d;
-    color:  #0d113d;
+    color: #0d113d;
 }
+
 .white-btn:hover,
 .button:hover {
     background-color: #753d9d;
@@ -115,6 +116,7 @@ h3{
 .magenta {
     color: #753d9d;
 }
+
 .top-section {
     background: url(../img/background_1.jpg);
     background-size: 100%;
@@ -125,6 +127,7 @@ h3{
 .header {
     padding-top: 42px;
 }
+
 .list-menu {
     padding-top: 18px;
 }
@@ -132,9 +135,10 @@ h3{
 .page-title {
     padding-top: 240px;
 }
-.page-title p{
-    color:#ffffff;
-    font:300 18px/1 'Montserrat', sans-serif;
+
+.page-title p {
+    color: #ffffff;
+    font: 300 18px/1 'Montserrat', sans-serif;
     padding: 41px 45px 95px;
     text-align: center;
 }
@@ -142,15 +146,16 @@ h3{
 .page-title .button-holder {
     padding: 0 0 230px;
 }
+
 .page-title .button-holder a {
     margin-right: 30px;
 }
-
 
 .intro {
     border-bottom: #e0e0e0 solid 3px;
     padding: 70px 0;
 }
+
 .intro-article {
     padding-top: 10px;
 }
@@ -158,18 +163,21 @@ h3{
 .intro-title {
     padding: 8px 0 8px 20px;
 }
+
 .intro-title-first-line {
-    font:600 36px/1 'Montserrat', sans-serif;
+    font: 600 36px/1 'Montserrat', sans-serif;
 }
 
 .intro-title-second-line {
-    font:300 36px/1 'Montserrat', sans-serif;
+    font: 300 36px/1 'Montserrat', sans-serif;
     padding-top: 18px;
 }
+
 .intro-article p {
     padding: 41px 0 50px;
 }
-.intro-article .button-holder{
+
+.intro-article .button-holder {
     text-align: left;
     padding-bottom: 8px;
 }
@@ -182,6 +190,7 @@ h3{
     padding: 0 0 53px 85px;
     position: relative
 }
+
 .work-holder-section img {
     position: absolute;
     left: 0;
@@ -194,10 +203,11 @@ h3{
     height: auto;
     padding: 110px 0 125px;
 }
+
 .mobile-first-holder span {
     color: #fff;
     display: block;
-    font:600 50px/1 'Montserrat', sans-serif;
+    font: 600 50px/1 'Montserrat', sans-serif;
     padding-bottom: 100px;
     text-align: center;
 }
@@ -206,10 +216,12 @@ h3{
     border-bottom: #e0e0e0 solid 3px;
     padding: 73px 0 70px;
 }
+
 .service-holder-title {
     /*margin-bottom: 30px;*/
     padding: 10px 0 10px 20px;
 }
+
 .service-holder-part {
     /*background: #0d113d;*/
     /*border-radius: 10px;*/
@@ -220,9 +232,9 @@ h3{
     position: relative;
 }
 
-.service-holder-part p{
+.service-holder-part p {
     color: #fff;
-    font:600 17px/1 'Montserrat', sans-serif;
+    font: 600 17px/1 'Montserrat', sans-serif;
     position: absolute;
     top: 330px;
     left: 40px;
@@ -232,10 +244,11 @@ h3{
     padding-top: 70px;
 }
 
-.support-holder-img{
+.support-holder-img {
     text-align: center;
 }
-.support-holder-description p{
+
+.support-holder-description p {
     padding: 30px 0 45px;
 }
 
@@ -245,35 +258,35 @@ h3{
 
 .support-holder-description li {
     color: #a5a5a5;
-    font:400 15px/1 'Montserrat', sans-serif;
+    font: 400 15px/1 'Montserrat', sans-serif;
     padding-bottom: 25px;
 }
-
 
 .contact-holder {
     background-color: #753d9d;
     padding: 75px 0 70px;
 }
 
-.contact-holder span{
+.contact-holder span {
     color: #fff;
-    font:600 25px/1 'Montserrat', sans-serif;
+    font: 600 25px/1 'Montserrat', sans-serif;
 }
 
-.contact-holder-row{
+.contact-holder-row {
     position: relative;
 }
-.contact-holder a{
+
+.contact-holder a {
     position: absolute;
     top: -20px;
     right: 15px;
 }
 
-.portfolio-holder{
+.portfolio-holder {
     padding: 70px 0 75px;
 }
 
-.portfolio-holder-title{
+.portfolio-holder-title {
     padding: 10px 0 10px 20px;
 }
 
@@ -285,22 +298,33 @@ h3{
     padding-bottom: 100px;
 }
 
-.blog-holder-title{
+.blog-holder-title {
     padding: 10px 0 10px 20px;
 }
 
 /* *********************************************
  lecture_35_css */
 
-.portfolio {}
-.portfolio-slider {}
-.slide-wrapper {}
-.img-wrapper {}
+.portfolio {
+}
+
+.portfolio-slider {
+}
+
+.slide-wrapper {
+}
+
+.img-wrapper {
+}
+
 .portfolio h3 {
     padding: 30px 0;
 }
 
-.slick-slide img {width: 100%;}
+.slick-slide img {
+    width: 100%;
+}
+
 .portfolio-slider .slick-arrow {
     color: transparent;
     font-size: 0;
@@ -320,17 +344,24 @@ h3{
     right: 15px;
 }
 
-.portfolio-slider.slick-slider {position: static;}
-.portfolio-slider.slick-list {margin: 0 -15px;}
+.portfolio-slider.slick-slider {
+    position: static;
+}
+
+.portfolio-slider.slick-list {
+    margin: 0 -15px;
+}
 
 .top-screen {
     position: absolute;
     background: transparent;
 }
 
+@media screen and (max-width: 1170px) {
+    .header-slider {
+        display: none;
+    }
 
-@media screen and (max-width:1170px) {
-    .header-slider {display: none;}
     .top-screen {
         background: url("../img/head-bg.img") 50%/cover no-repeat;
     }
