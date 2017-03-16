@@ -39,20 +39,23 @@ p {
 }
 
 .logo-holder div {
-    display: inline-block;
     font: 600 55px/1 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #fff;
     position: relative;
 }
 
-.blom img {
+.blom div {
     display: inline-block;
     height: 46px;
     width: 46px;
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.blom img {
+    position: absolute;
 }
 
 .logo-menu ul {
