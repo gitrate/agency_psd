@@ -616,6 +616,16 @@ $width: 5em;
 }
 По историческим причинам, в именах переменных (и прочих Sass идентификаторах) дефисы и подчеркивания взаимозаменяемы. Например, если вы определяете переменную $main-width, вы можете получить к ней доступ, написав $main_width, и наоборот.
 
+
+
+
+
+
+
+
+
+
+
 Установка проекта на FOUNDATION
 (предварительно установить Node.js
 
@@ -627,6 +637,10 @@ npm install -g json-server
 (проверка версии ноды: node --version)
 
 )
+
+
+
+
 http://foundation.zurb.com/sites/docs/installation.html
 
 проматываем до ZURB Template
@@ -638,7 +652,8 @@ npm install
 /* npm bower install */
 npm install -g bower
 npm install gulp
-(npm bower -v)
+(bower -v)
+bower install
 npm start
 
 
