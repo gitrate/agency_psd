@@ -656,6 +656,31 @@ npm install gulp
 bower install
 npm start
 
+пошаговая инструкция запуска проекта с нуля:
+
+1. Установить Node.js
+https://nodejs.org/en/
+
+2. Установить bower
+npm install -g bower
+
+3. Склонировать проект (не складывать проект в папку с другим проектом)
+git clone https://github.com/zurb/foundation-zurb-template projectname
+
+4. Перейти в папку с созданным проектом (по умолчанию, после клонирования, вы находитесь в родительской директории)
+
+5. Установить gulp
+npm install gulp
+
+6. Прописать зависимости в npm
+npm i(i = install)
+
+7. Прописать зависимости в bower
+bower i
+
+8. Запустить проект
+npm start
+
 
 
 
